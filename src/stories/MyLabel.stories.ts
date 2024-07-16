@@ -1,5 +1,5 @@
 import {Meta, StoryObj} from '@storybook/react';
-import {MyLabel} from '../components/MyLabel.tsx';
+import {MyLabel} from '../components/MyLabel';
 
 const meta: Meta<typeof MyLabel> = {
     title: 'Example/MyLabel',
