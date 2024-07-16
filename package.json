@@ -39,7 +39,8 @@
     "build-storybook": "storybook build",
     "clean": "rimraf dist/",
     "copyfiles": "copyfiles -u 1 src/**/*.css dist/",
-    "push:np": "np"
+    "push:np": "np",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
